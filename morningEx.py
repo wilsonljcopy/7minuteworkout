@@ -5,7 +5,7 @@ def countDown(n):
 		print n-i
 		time.sleep(1)
 
-if __name__ == '__main__':
+def main():
 	repeat = 12
 	train = 40
 	relax = 20
@@ -19,3 +19,6 @@ if __name__ == '__main__':
 		print "Relax..."
 		countDown(relax)
 	print '\nFinished!'
+
+if __name__ == '__main__':
+	main()
